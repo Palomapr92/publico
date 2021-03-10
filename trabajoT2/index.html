@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Paloma Pérez Reyes
+fecha: Marzo 2021
+-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Titulo en Etiqueta del Navegador</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<!-- una hoja de estilos externa-->
+	<link href="trabajo.css" rel="stylesheet" />
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.cs" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="clicks.js"> </script>
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js"></script>
+	<link rel="shortcut icon" type="image/jpg" href="imagenes/logo.ico"/>
+
+</head>
+
+<body>
+	<div class="marco">
+		<div class="encabezado">
+			<div class="menu">
+				<nav>
+					<ul>
+						<li onclick="onClick()"><a href="#">Inicio</a></li>
+						<li><a href="actualidad.html">Actualidad</a></li>
+						<li><a href="#">Tendencias</a></li>
+						<li><a href="#">Contactar</a></li>
+						<span id="contador" style="text-align:right; padding-left: 20%;"> </span>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="migas">
+			<ul class="breadcrumb">
+				<li><a href="#">Inicio</a></li>
+			</ul>
+		</div>
+		<div class="lado">
+			<div class="vertical-menu">
+				<nav>
+					<ul>
+						<li  onclick="onClick()"><a href="#">Inicio</a></li>
+						<li><a href="actualidad.html">Actualidad</a></li>
+						<li><a href="#">Tendencias</a></li>
+						<li><a href="#">Contactar</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="contenido">
+			<div class="imagen">
+					<img class="imgCiberseguridad" src="imagenes/cenec.png">
+			</div>
+			<div class="cuerpo">
+				<h3>Paloma Pérez</h3>
+				<p></p>
+			</div>
+
+		</div>
+		<div class="pie">
+			palomaperez@seguridad.es 2021
+		</div>
+	</div>
+</body>
+
+</html>

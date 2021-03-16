@@ -14,7 +14,7 @@ fecha: Marzo 2021
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Titulo en Etiqueta del Navegador</title>
+	<title>Inicio</title>
 
 	<!-- una fuente de Google -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -30,7 +30,7 @@ fecha: Marzo 2021
 
 	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script type="text/javascript" src="clicks.js"> </script>
+	
 
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
 	<script src="00-modelo.js"></script>
@@ -44,7 +44,7 @@ fecha: Marzo 2021
 			<div class="menu">
 				<nav>
 					<ul>
-						<li onclick="onClick()"><a href="#">Inicio</a></li>
+						<li ><a href="index.html">Inicio</a></li>
 						<li><a href="actualidad.html">Actualidad</a></li>
 						<li><a href="#">Tendencias</a></li>
 						<li><a href="#">Contactar</a></li>
@@ -55,14 +55,14 @@ fecha: Marzo 2021
 		</div>
 		<div class="migas">
 			<ul class="breadcrumb">
-				<li><a href="#">Inicio</a></li>
+				<li><a id="prueba" href="#"></a></li>
 			</ul>
 		</div>
 		<div class="lado">
 			<div class="vertical-menu">
 				<nav>
 					<ul>
-						<li  onclick="onClick()"><a href="#">Inicio</a></li>
+						<li><a href="index.html">Inicio</a></li>
 						<li><a href="actualidad.html">Actualidad</a></li>
 						<li><a href="#">Tendencias</a></li>
 						<li><a href="#">Contactar</a></li>
@@ -75,9 +75,33 @@ fecha: Marzo 2021
 					<img class="imgCiberseguridad" src="imagenes/cenec.png">
 			</div>
 			<div class="cuerpo">
-				<h3>Paloma Pérez</h3>
-				<p></p>
+				<h1>SOBRE MI</h1><br>
+				<p> Me llamo Paloma Pérez Reyes, estoy estudiando el Grado Superior de Desarrollo de Aplicaciones 
+					Multiplataforma porque considero que de cara al futuro es un sector que tiene bastante salidas profesionales.
+				</p><br>
+				<p>
+					Yo he trabajado en bares y tiendas de ropa pero a causa de la pandemia me decidi a volver a estudiar porque
+					me di cuenta de la realidad y que el sector de la informatica era el futuro.
+				</p> 
 			</div>
+			<div class="bloqueCenec">
+				<div class="textoCenec">
+				<h1>CENEC MÁLAGA</h1><br>
+				<p>Más de 24.000 alumnos formados en los últimos 32 años, dan una idea de la calidad y el compromiso de nuestro equipo.  
+				</p><br>
+				<p>
+					La experiencia, el conocimiento, la pasión por la tecnología, la proactividad y el prestigio, 
+					nos han convertido en el partner imprescindible de la industria para buscar y contratar los mejores profesionales.
+				</p><br>
+				<p>
+					Contamos con líderes tecnológicos, apoyando nuestra labor de formación en el mundo digital a través de alianzas estratégicas, mecenazgo y colaboración.
+				</p> 
+			</div>
+			<div>
+				<img class="imgCiberseguridad" src="imagenes/cenec.png">
+			</div>
+			</div>
+			
 
 		</div>
 		<div class="pie">
@@ -85,5 +109,5 @@ fecha: Marzo 2021
 		</div>
 	</div>
 </body>
-
+<script type="text/javascript" src="clicks.js"> </script>
 </html>

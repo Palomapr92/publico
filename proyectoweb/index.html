@@ -1,46 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<!--
-web o pagina:
-alumno:
-fecha:
--->
-
+<html lang="ES">
 <head>
-  <title>Titulo en Etiqueta del Navegador</title>
-  <meta charset="UTF-8"/>
-  <link rel="stylesheet" href="00-modelo.css"/>
-    <style>
-	/* aquí estilos aplicados solo a esta pagina */
-	body {
-		background: rgba(0, 0, 128, 0.1) /* Azul al 10% */
-	}
-  </style>
-  <script>
-	// seccion de codigo javascript 
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO FINAL</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-
-
 <body>
-	<header>
-		<h1>3er. Trimestre - ENTREGA FINAL
+    <!-- Primera Sección -->
+    <div id="primera-seccion">
+        <div id="barra-navegacion">
+            <p id="logo">Viajes <span style="color: seagreen;">HAWAII</span></p>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Tradiciones</a>
+                <a href="#">Contactanos</a>
+                <a href="#">Login</a>
+            </nav>
+        </div>
 
-			(en breve... estoy trabajando en ello...)</h1> <!-- 1 y solo 1 por pagina -->
-	</header>
-	
-	<main> <!-- aqui podemos tambien usar section y article -->
-	</main>
-	
-	<footer>
-	
-	</footer>
-	
+        <div id="primera-seccion-contenido">
+            <p>¿necesitas vacaciones?</p>
+            <hr>
+            <h1>VEN A HAWAII</h1>
+            <a href="#" class="btn-verde">más información</a>
+        </div>
+    </div>
 
-	<script>
-	// seccion de codigo javascript 
+    <!-- Segunda Sección -->
+    <div id="segunda-seccion">
+        <p class="frase">"Disfruta de su cultura y tradiciones"</p>
+        <p class="frase">- HAWAII</p>
+    </div>
 
-	</script>
+    <!-- Tercera Sección -->
+    <div id="tercera-seccion">
+        <div id="titulo">
+            <h2>DESCUBRE HAWAII</h2>
+            <hr>
+        </div>
+        <div id="container-tercera-seccion">
+            <div class="img-tercera">
+                <img src="./imagenes/imagen1.jpg" alt="">
+                <h6>TRADICIONES</h6>
+                <p>Conoce las tradiciones y la cultura Hawaiana.</p>
+                <a href="" class="btn-verde">Más información</a>
+            </div>
+            <div class="img-tercera">
+                <img src="./imagenes/imagenC.jpg" alt="">
+                <h6>GASTRONOMIA</h6>
+                <p>Disfruta de la gastronomia Hawaiana.</p>
+                <a href="" class="btn-verde">Más información</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cuarta Sección -->
+    <div id="cuarta-seccion">
+        <div id="contenedor">
+            <div id="cuarta-seccion-izq" class="mitad"></div>
+            <div id="cuarta-seccion-der" class="mitad">
+                <h3>EXPLORA HAWAII</h3>
+                <hr>
+                <p>
+                    Exponerte a nuevos lugares, personas y culturas van a desarrollar la manera en que ves 
+                    al mundo lo cual va a influir de manera positiva en tu vida.
+                </p>
+                <a href="#" class="btn-verde">Más información</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quinta Sección -->
+    <div id="quinta-seccion">
+        <div id="quinta-seccion-izquierda">
+            <h3>HAWAII ES TUYO</h3>
+            <hr>
+            <p>
+                Conoce sus islas y todos sus rincones, no tienes excusa para no regalarte el viaje de tus sueños.
+            </p>
+            <a href="#" class="btn-verde">Más información</a>
+        </div>
+        <div id="quinta-seccion-derecha">
+            <img src="./imagenes/imagenD.jpg" alt="">
+            <img src="./imagenes/imagenK.jpg" alt="">
+            <img src="./imagenes/imagen2.jpg" alt="">
+            <img src="./imagenes/imagenW.jpg" alt="">
+        </div>
+    </div>
+
+   <!--Footer-->
+   <footer>
+    <p>Paloma Pérez Reyes || Copyright © 2021 - Viajes <span style="color: seagreen;"HAWAII></span></p>
+  </footer>
+
 </body>
+
 </html>

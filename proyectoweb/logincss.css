@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #DEDEDE;
+    background: #ffffff;
     display: flex;
     min-height: 100vh;
 }
@@ -15,7 +15,7 @@ form{
     margin:auto;
     width: 50%;
     max-width: 500px;
-    background: #f3f3f3;
+    background: #bfe2d6;
     padding: 30px;
     border: 1px solid rgba(0,0,0,0.2)
 }
@@ -35,9 +35,9 @@ input{
 }
 
 input[type="submit"]{
-    background: linear-gradient(#FFDA63,#FFB940);
+    background: linear-gradient(seagreen,seagreen);
     border: 0;
-    color: brown;
+    color: black;
     opacity: 0.8;
     cursor: pointer;
     border-radius: 20px;

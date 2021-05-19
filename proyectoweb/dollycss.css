@@ -3,13 +3,17 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 900px;
     max-width: 1060px;
     background: #000;
     overflow: hidden;
     margin: 25px auto;
     position: relative;
     height: 300px;
+}
+
+.container img{
+    width: 100%;
 }
 
 .container:hover .background {

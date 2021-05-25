@@ -84,3 +84,113 @@ nav > a:hover {
 }
 
 /* termine segunda sección */
+
+/* comienza tercera sección */
+
+#tercera-seccion{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 0;
+    padding-bottom: 5rem;
+}
+
+#titulo {
+    margin-bottom: 2rem;
+}
+
+#titulo > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#titulo > hr {
+    width: 4.5rem;
+    border-color: seagreen;
+}
+
+#container-tercera-seccion{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-tercera {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.img-tercera > h6 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.img-tercer > p {
+    margin-bottom: 2rem;
+}
+
+.img-tercera > img {
+    max-width: 100%;
+}
+
+
+/* termina tercera sección */
+/* comienza cuarta sección */
+
+#cuarta-seccion{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(./imagenes/imagenR.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#cuarta-seccion a{
+    text-decoration: none;
+    color: darksalmon;
+    transition: 0.5s;
+}
+
+#cuarta-seccion a:hover{
+    color: brown;
+}
+
+#contenedor {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.mitad {
+    width: 50%;
+}
+
+#cuarta-seccion-der > h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#cuarta-seccion-der > hr {
+    width: 4.5rem;
+    border-color: seagreen;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+#cuarta-seccion-der > p {
+    margin-bottom: 4rem;
+}
+
+/* termina cuarta sección */

@@ -24,6 +24,10 @@
     padding-bottom: 2rem;
 }
 
+#logout {
+    display: none;
+}
+
 .logo {
     margin: 0;
     text-transform: uppercase;

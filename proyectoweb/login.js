@@ -11,7 +11,9 @@ fecha: Mayo de 2021
 function comprobarUsuario(){
   if(sessionStorage.getItem("usuario").length>0){
     document.getElementById("mensaje").style.display="none";
+    document.getElementById("login").style.display="none";
     document.getElementById("contenido").style.display="block";
+    document.getElementById("logout").style.display="block";
   }
 }
 

@@ -100,7 +100,7 @@ nav > a:hover {
 /* comienza segunda sección */
 
 #segunda-seccion{
-    background-color: rgb(171, 247, 190);
+    background-color: rgb(186, 248, 202);
     min-height: 10rem;
     display: flex;
     flex-direction: column;

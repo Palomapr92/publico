@@ -71,3 +71,16 @@ nav > a:hover {
 }
 
 /* termina primera sección */
+
+/* comienza segunda sección */
+
+#segunda-seccion{
+    background-color: rgb(252, 182, 155);
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+/* termine segunda sección */

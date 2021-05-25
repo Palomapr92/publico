@@ -8,14 +8,14 @@
 
 /* comienza primera sección */
 
-#primera-seccion {
+.primera-seccion {
     background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(./imagenes/imagenAB.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
 }
 
-#barra-navegacion {
+.barra-navegacion {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +24,7 @@
     padding-bottom: 2rem;
 }
 
-#logo {
+.logo {
     margin: 0;
     text-transform: uppercase;
     font-weight: 700;
@@ -42,14 +42,14 @@ nav > a:hover {
     color: seagreen;
 }
 
-#primera-seccion-contenido {
+.primera-seccion-contenido {
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-#primera-seccion-contenido > p {
+.primera-seccion-contenido > p {
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -57,12 +57,12 @@ nav > a:hover {
     font-weight: bold;
 }
 
-#primera-seccion-contenido > hr {
+.primera-seccion-contenido > hr {
     width: 4.5rem;
     border-color: seagreen;
 }
 
-#primera-seccion-contenido > h1 {
+.primera-seccion-contenido > h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 4rem;

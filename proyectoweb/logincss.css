@@ -18,9 +18,7 @@ body:before{
     position: absolute;
     top: 0;
     left: 0;
-
-    background: linear-gradient(80deg,rgb(109, 230, 183),rgb(110, 160, 135));
-
+    background: linear-gradient(80deg,rgb(157, 241, 178),rgb(92, 122, 100));
     opacity:0.7;
     z-index:-1;
 }
@@ -29,7 +27,7 @@ form{
     margin:auto;
     width: 50%;
     max-width: 500px;
-    background: #bfe2d6;
+    background: #eefff9;
     padding: 30px;
     border: 1px solid rgba(0,0,0,0.2)
 }

@@ -9,7 +9,7 @@
 /* comienza primera sección */
 
 .primera-seccion {
-    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(./imagenes/imagenAB.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(../imagenes/imagenAB.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;

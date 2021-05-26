@@ -7,6 +7,10 @@
     <title>TRADICIONES</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/tradicionescss.css">
+    <!--Enlace para el uso de JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Enlace para el uso de iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,12 +18,15 @@
     <div id="mensaje">
         <div class="primera-seccion">
             <div class="barra-navegacion">
-                <p class="logo">Viajes <span style="color: seagreen;">HAWAII</span></p>
+                <p class="logo">Viajes <span style="color: seagreen;">HAWAII</span>
+                    <i title="Activar Zoom" id="activarZoom" class="fa fa-search-plus" onclick="activarAccesibilidad()"></i>
+                    <i title="Desactivar Zoom" id="desactivarZoom" class="fa fa-search-minus" onclick="desactivarAccesibilidad()"></i>
+                </p>
                 <nav>
-                    <a href="index.html">Inicio</a>
-                    <a href="../html/tradiciones.html">Tradiciones</a>
-                    <a href="../html/dolly.html">Efecto Dolly</a>
-                    <a href="../html/login.html">Login</a>
+                    <a href="../index.html">Inicio</a>
+                    <a href="tradiciones.html">Tradiciones</a>
+                    <a href="dolly.html">Efecto Dolly</a>
+                    <a href="login.html">Login</a>
                     <a href="#">Logout</a>
                 </nav>
             </div>
@@ -37,7 +44,10 @@
         <!-- Primera Sección -->
         <div class="primera-seccion">
             <div class="barra-navegacion">
-                <p class="logo">Viajes <span style="color: seagreen;">HAWAII</span></p>
+                <p class="logo">Viajes <span style="color: seagreen;">HAWAII</span>
+                    <i title="Activar Zoom" id="activarZoom" class="fa fa-search-plus" onclick="activarAccesibilidad()"></i>
+                    <i title="Desactivar Zoom" id="desactivarZoom" class="fa fa-search-minus" onclick="desactivarAccesibilidad()"></i>
+                </p>
                 <nav>
                     <a href="index.html">Inicio</a>
                     <a href="../html/tradiciones.html">Tradiciones</a>
@@ -132,5 +142,5 @@
 
 <!--Enlace a JavaScript-->
 <script src="../js/login.js"></script>
-
+<script src="../js/accesibilidad.js"></script>
 </html>

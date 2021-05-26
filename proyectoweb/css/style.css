@@ -7,6 +7,24 @@ body{
     color: #222222;
 }
 
+#activarZoom {
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#desactivarZoom {
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    display:none;
+}
+
+#activarZoom:hover, #desactivarZoom:hover{
+    color: black;
+}
+
+
 /* comienza clases reutilizables */
 
 .btn-verde {

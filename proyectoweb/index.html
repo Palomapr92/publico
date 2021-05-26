@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="ES">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROYECTO FINAL</title>
     <link rel="stylesheet" href="./css/style.css">
+    <!--Enlace para el uso de JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Enlace para el uso de iconos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <!-- Primera Sección -->
     <div id="primera-seccion">
         <div id="barra-navegacion">
-            <p id="logo">Viajes <span style="color: seagreen;">HAWAII</span></p>
+            <p id="logo">Viajes <span style="color: seagreen;">HAWAII</span>
+                <i title="Activar Zoom" id="activarZoom" class="fa fa-search-plus" onclick="activarAccesibilidad()"></i>
+                <i title="Desactivar Zoom" id="desactivarZoom" class="fa fa-search-minus" onclick="desactivarAccesibilidad()"></i>
+            </p>
+
             <nav>
                 <a href="index.html">Inicio</a>
                 <a href="./html/tradiciones.html">Tradiciones</a>
@@ -22,7 +32,7 @@
         <div id="primera-seccion-contenido">
             <p>¿necesitas vacaciones?</p>
             <hr>
-            <h1>VEN A HAWAII</h1> 
+            <h1>VEN A HAWAII</h1>
         </div>
     </div>
 
@@ -62,7 +72,7 @@
                 <h3>EXPLORA HAWAII</h3>
                 <hr>
                 <p>
-                    Exponerte a nuevos lugares, personas y culturas van a desarrollar la manera en que ves 
+                    Exponerte a nuevos lugares, personas y culturas van a desarrollar la manera en que ves
                     al mundo lo cual va a influir de manera positiva en tu vida.
                 </p>
                 <a href="#" class="btn-verde">Más información</a>
@@ -88,11 +98,13 @@
         </div>
     </div>
 
-   <!--Footer-->
-   <footer>
-    <p>Paloma Pérez Reyes || Copyright © 2021 - Viajes <span style="color: seagreen;"HAWAII></span></p>
-  </footer>
+    <!--Footer-->
+    <footer>
+        <p>Paloma Pérez Reyes || Copyright © 2021 - Viajes <span style="color: seagreen;" HAWAII></span></p>
+    </footer>
 
 </body>
+<script src="./js/login.js"></script>
+<script src="./js/accesibilidad.js"></script>
 
 </html>

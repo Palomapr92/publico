@@ -34,7 +34,7 @@ body{
 /* comienza primera sección */
 
 #primera-seccion {
-    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(./imagenes/cabecera.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(68, 13, 13, 0.35), rgba(38,2,2,0.446)), url(../imagenes/cabecera.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -171,7 +171,7 @@ nav > a:hover {
 /* comienza cuarta sección */
 
     #cuarta-seccion{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(./imagenes/imagenL.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(../imagenes/imagenL.jpg) no-repeat center/cover;
         background-attachment: fixed;
         height: 100vh;
         color: white;

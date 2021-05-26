@@ -11,6 +11,12 @@ fecha: Mayo de 2021
 function comprobarUsuario(){
   if(sessionStorage.getItem("usuario").length>0){
     document.getElementById("mensaje").style.display="none";
+    prueba()
+  }
+}
+
+function prueba(){
+  if(sessionStorage.getItem("usuario").length>0){
     document.getElementById("contenido").style.display="block";
   }
 }

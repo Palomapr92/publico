@@ -149,7 +149,7 @@ nav > a:hover {
 /* comienza cuarta sección */
 
 #cuarta-seccion{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(./imagenes/imagenR.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(../imagenes/imagenR.jpg) no-repeat center/cover;
     background-attachment: fixed;
     height: 100vh;
     color: white;

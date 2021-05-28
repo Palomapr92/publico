@@ -112,6 +112,30 @@ nav > a:hover {
     font-weight: 700;
     margin-bottom: 2.5rem;
 }
+.contenedor-imagenes{
+  display: flex;
+  width: 100%;
+}
+.imagen-diagrama{
+  width: 50%;
+}
+
+.imagen-diagrama img{
+  width: 100%;
+}
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Termina Footer */
 
 /*Estilo del main*/
 /*Imagen fija 1*/
@@ -153,7 +177,7 @@ nav > a:hover {
     color: black;
     text-align: center;
     font-size: 16px;
-    display: flex;
+
   }
   
   .contenedor_texto {
@@ -164,7 +188,7 @@ nav > a:hover {
   }
   
   .columna_proyecto {
-    float: left;
+ 
     width: 50%;
     margin-top: 6px;
     padding: 10px;
@@ -180,12 +204,11 @@ nav > a:hover {
     text-align:justify;
   }
       
-  .fila_proyecto:after {
-    content: "";
-    display: table;
-    clear: both;
+  .fila_proyecto{
+    display: flex;
   }
-  
+
+
   #separador {padding-top: 50px;}
   
   #separador2 {padding: 20px;}
